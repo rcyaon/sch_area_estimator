@@ -1,0 +1,239 @@
+{
+  "pdk": "gf180mcuC",
+  "units": "micrometers",
+  "_warning": "All model coefficients are PLACEHOLDERS. Regenerate with scripts/gf180mcu_measure_devices.py against an installed gf180mcuC PDK + Magic before trusting results.",
+  "mosfets": {
+    "nfet_03v3": {
+      "sweep": [],
+      "model": {
+        "formula": "area=(ah*w+bh)*(aw*l*nf+bw*nf+cw)",
+        "ah": 1.0,
+        "bh": 0.8,
+        "aw": 1.0,
+        "bw": 0.3,
+        "cw": 0.6,
+        "_note": "PLACEHOLDER"
+      }
+    },
+    "pfet_03v3": {
+      "sweep": [],
+      "model": {
+        "formula": "area=(ah*w+bh)*(aw*l*nf+bw*nf+cw)",
+        "ah": 1.0,
+        "bh": 0.8,
+        "aw": 1.0,
+        "bw": 0.3,
+        "cw": 0.6,
+        "_note": "PLACEHOLDER"
+      }
+    },
+    "nfet_05v0": {
+      "sweep": [],
+      "model": {
+        "formula": "area=(ah*w+bh)*(aw*l*nf+bw*nf+cw)",
+        "ah": 1.0,
+        "bh": 0.8,
+        "aw": 1.0,
+        "bw": 0.3,
+        "cw": 0.6,
+        "_note": "PLACEHOLDER"
+      }
+    },
+    "pfet_05v0": {
+      "sweep": [],
+      "model": {
+        "formula": "area=(ah*w+bh)*(aw*l*nf+bw*nf+cw)",
+        "ah": 1.0,
+        "bh": 0.8,
+        "aw": 1.0,
+        "bw": 0.3,
+        "cw": 0.6,
+        "_note": "PLACEHOLDER"
+      }
+    },
+    "nfet_06v0": {
+      "sweep": [],
+      "model": {
+        "formula": "area=(ah*w+bh)*(aw*l*nf+bw*nf+cw)",
+        "ah": 1.0,
+        "bh": 0.8,
+        "aw": 1.0,
+        "bw": 0.3,
+        "cw": 0.6,
+        "_note": "PLACEHOLDER"
+      }
+    },
+    "pfet_06v0": {
+      "sweep": [],
+      "model": {
+        "formula": "area=(ah*w+bh)*(aw*l*nf+bw*nf+cw)",
+        "ah": 1.0,
+        "bh": 0.8,
+        "aw": 1.0,
+        "bw": 0.3,
+        "cw": 0.6,
+        "_note": "PLACEHOLDER"
+      }
+    },
+    "nfet_03v3_dss": {
+      "sweep": [],
+      "model": {
+        "formula": "area=(ah*w+bh)*(aw*l*nf+bw*nf+cw)",
+        "ah": 1.0,
+        "bh": 0.8,
+        "aw": 1.0,
+        "bw": 0.3,
+        "cw": 0.6,
+        "_note": "PLACEHOLDER"
+      }
+    },
+    "pfet_03v3_dss": {
+      "sweep": [],
+      "model": {
+        "formula": "area=(ah*w+bh)*(aw*l*nf+bw*nf+cw)",
+        "ah": 1.0,
+        "bh": 0.8,
+        "aw": 1.0,
+        "bw": 0.3,
+        "cw": 0.6,
+        "_note": "PLACEHOLDER"
+      }
+    },
+    "nfet_05v0_dss": {
+      "sweep": [],
+      "model": {
+        "formula": "area=(ah*w+bh)*(aw*l*nf+bw*nf+cw)",
+        "ah": 1.0,
+        "bh": 0.8,
+        "aw": 1.0,
+        "bw": 0.3,
+        "cw": 0.6,
+        "_note": "PLACEHOLDER"
+      }
+    },
+    "pfet_05v0_dss": {
+      "sweep": [],
+      "model": {
+        "formula": "area=(ah*w+bh)*(aw*l*nf+bw*nf+cw)",
+        "ah": 1.0,
+        "bh": 0.8,
+        "aw": 1.0,
+        "bw": 0.3,
+        "cw": 0.6,
+        "_note": "PLACEHOLDER"
+      }
+    },
+    "nfet_06v0_dss": {
+      "sweep": [],
+      "model": {
+        "formula": "area=(ah*w+bh)*(aw*l*nf+bw*nf+cw)",
+        "ah": 1.0,
+        "bh": 0.8,
+        "aw": 1.0,
+        "bw": 0.3,
+        "cw": 0.6,
+        "_note": "PLACEHOLDER"
+      }
+    },
+    "pfet_06v0_dss": {
+      "sweep": [],
+      "model": {
+        "formula": "area=(ah*w+bh)*(aw*l*nf+bw*nf+cw)",
+        "ah": 1.0,
+        "bh": 0.8,
+        "aw": 1.0,
+        "bw": 0.3,
+        "cw": 0.6,
+        "_note": "PLACEHOLDER"
+      }
+    },
+    "nfet_06v0_nvt": {
+      "sweep": [],
+      "model": {
+        "formula": "area=(ah*w+bh)*(aw*l*nf+bw*nf+cw)",
+        "ah": 1.0,
+        "bh": 0.8,
+        "aw": 1.0,
+        "bw": 0.3,
+        "cw": 0.6,
+        "_note": "PLACEHOLDER"
+      }
+    }
+  },
+  "poly_resistors": {
+    "npolyf_u": {
+      "sweep": [],
+      "model": [
+        {
+          "w": 1.0,
+          "slope": 1.0,
+          "intercept": 0.5,
+          "_note": "PLACEHOLDER"
+        }
+      ]
+    },
+    "ppolyf_u": {
+      "sweep": [],
+      "model": [
+        {
+          "w": 1.0,
+          "slope": 1.0,
+          "intercept": 0.5,
+          "_note": "PLACEHOLDER"
+        }
+      ]
+    },
+    "nplus_u": {
+      "sweep": [],
+      "model": [
+        {
+          "w": 1.0,
+          "slope": 1.0,
+          "intercept": 0.5,
+          "_note": "PLACEHOLDER"
+        }
+      ]
+    },
+    "pplus_u": {
+      "sweep": [],
+      "model": [
+        {
+          "w": 1.0,
+          "slope": 1.0,
+          "intercept": 0.5,
+          "_note": "PLACEHOLDER"
+        }
+      ]
+    }
+  },
+  "mim_caps": {
+    "cap_mim_2f0_m2m3": {
+      "sweep": [],
+      "model": {
+        "border_um": 0.5,
+        "_note": "PLACEHOLDER"
+      }
+    }
+  },
+  "var_caps": {
+    "cap_nmos_03v3": {
+      "sweep": [],
+      "model": {
+        "a": 1.0,
+        "b": 1.0,
+        "c": 0.5,
+        "_note": "PLACEHOLDER"
+      }
+    }
+  },
+  "bjts": {
+    "npn_10p00x10p00": {
+      "area_um2": 100.0,
+      "_note": "PLACEHOLDER"
+    },
+    "vertical_pnp_10p00x10p00": {
+      "area_um2": 100.0,
+      "_note": "PLACEHOLDER"
+    }
+  }
+}
